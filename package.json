@@ -1,0 +1,24 @@
+{
+  "name": "code-reviewer-ai",
+  "version": "0.1.0",
+  "description": "AI-powered code review CLI using Claude",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "code-reviewer": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
